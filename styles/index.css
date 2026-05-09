@@ -1,0 +1,5 @@
+body {
+  background: url("../images/intro-background.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+}
