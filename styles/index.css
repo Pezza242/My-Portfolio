@@ -1,6 +1,7 @@
 :root {
   --main-font-family: "Quicksand", sans-serif;
   --text-center: center;
+  --secondary-font-family: "Sacramento", cursive;
 }
 body {
   background-color: #212529;
@@ -21,9 +22,18 @@ body {
   height: fit-content;
 }
 #greeting {
-  font-family: "Sacramento", cursive;
+  font-family: var(--secondary-font-family);
   font-size: 38px;
   margin-bottom: 5px;
+}
+#city {
+  font-family: var(--secondary-font-family);
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+#city:hover {
+  color: #9a733f;
 }
 #line-1 {
   width: 500px;
