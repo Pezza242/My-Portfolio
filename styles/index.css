@@ -2,14 +2,18 @@
   --main-font-family: "Quicksand", sans-serif;
   --text-center: center;
 }
-body {
+
+#intro {
   background: url("../images/intro-background.jpg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--main-font-family);
-}
-#intro {
   text-align: var(--text-center);
+  height: 500px;
+  padding-top: 70px;
+}
+#intro-box {
   background-color: rgba(255, 255, 255, 0.8);
+  height: 350px;
 }
