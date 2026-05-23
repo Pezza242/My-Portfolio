@@ -2,9 +2,13 @@
   --main-font-family: "Quicksand", sans-serif;
   --text-center: center;
   --secondary-font-family: "Sacramento", cursive;
+  --text-colour: white;
 }
 body {
   background-color: #212529;
+}
+.navbar {
+  padding: 0px 5px;
 }
 
 #intro {
@@ -16,9 +20,11 @@ body {
   text-align: var(--text-center);
   height: 550px;
   padding-top: 70px;
+  border-bottom: 10px solid white;
 }
 #intro-box {
   background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
   height: fit-content;
 }
 #greeting {
@@ -54,4 +60,47 @@ body {
   #line-2 {
     max-width: 85%;
   }
+}
+#table-content {
+  color: var(--text-colour);
+}
+#line-3 {
+  border: 1.25px solid white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#list-1 {
+  text-decoration: none;
+  color: var(--text-colour);
+}
+#line-3 {
+  margin-top: 10px;
+}
+li {
+  list-style: none;
+  line-height: 50px;
+}
+#flower-pic {
+  padding: 0px;
+}
+#projects {
+  background-color: #dbcbb9;
+  color: var(--text-colour);
+  border-top: 10px solid white;
+  text-align: var(--text-center);
+  height: 1000px;
+  font-family: var(--main-font-family);
+}
+#project-header {
+  padding-top: 20px;
+  font-family: var(--main-font-family);
+}
+#line-4 {
+  border: 1.5px solid white;
+  width: 800px;
+  display: block;
+  margin: 0px auto;
+}
+#project-intro {
+  padding: 10px 0px;
 }
