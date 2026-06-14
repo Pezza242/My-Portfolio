@@ -131,36 +131,3 @@ li {
 #flower-pic {
   padding: 0px;
 }
-#projects-main {
-  background-image: url(../images/project-section-background.jpg);
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: var(--text-colour);
-  text-align: var(--text-center);
-  height: 1000px;
-}
-#projects-header {
-  background-color: #212529;
-  border-top: 10px solid white;
-  color: var(--text-colour);
-  text-align: var(--text-center);
-
-  padding-bottom: 1px;
-}
-#title {
-  padding-top: 20px;
-  font-family: var(--main-font-family);
-}
-#line-4 {
-  border: 1.5px solid white;
-  width: 800px;
-  display: block;
-  margin: 0px auto;
-}
-#projects-box {
-  background-color: rgb(209, 184, 157, 0.9);
-}
-#recent {
-  font-family: var(--main-font-family);
-}
