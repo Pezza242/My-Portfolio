@@ -3,6 +3,7 @@
   --text-center: center;
   --secondary-font-family: "Sacramento", cursive;
   --text-colour: white;
+  --hover-colour: #9a733f;
 }
 body {
   background-color: #212529;
@@ -39,7 +40,7 @@ body {
   color: black;
 }
 #city:hover {
-  color: #9a733f;
+  color: var(--hover-colour);
 }
 #line-1 {
   width: 500px;
@@ -63,6 +64,55 @@ body {
 }
 #table-content {
   color: var(--text-colour);
+  background-image: url(../images/beige-background.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 50px;
+}
+#content-box {
+  width: 800px;
+  display: block;
+  margin: 0px auto;
+  background-color: rgba(25, 23, 15, 0.9);
+}
+#content-title {
+  font-family: var(--main-font-family);
+  text-align: var(--text-center);
+  margin-top: 20px;
+}
+#sub-content {
+  text-align: var(--text-center);
+  font-size: 16px;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: #c0a28f;
+}
+#content-list {
+  margin-left: 50px;
+  margin-bottom: 30px;
+  width: 700px;
+}
+.content-section {
+  background-color: rgba(33, 37, 41, 0.7);
+  border: 1px solid rgba(33, 37, 41, 0.7);
+  margin-bottom: 7px;
+}
+.content-section:hover {
+  background-color: rgb(54, 53, 50);
+  border: 1px solid rgb(54, 53, 50);
+  transform: scale(1.05);
+  transition: 120ms all ease-in-out;
+}
+.material-symbols-outlined {
+  color: #c0a28f;
+  font-size: 40px;
+  display: block;
+  margin: 0px auto;
+}
+.content-info {
+  margin-bottom: 2px;
 }
 #line-3 {
   border: 1.25px solid white;
@@ -73,25 +123,25 @@ body {
   text-decoration: none;
   color: var(--text-colour);
 }
-#line-3 {
-  margin-top: 10px;
-}
 li {
   list-style: none;
   line-height: 50px;
 }
+
 #flower-pic {
   padding: 0px;
 }
-#projects {
-  background-color: #dbcbb9;
+#project-header {
+  background-image: url(../images/project-background.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--text-colour);
   border-top: 10px solid white;
   text-align: var(--text-center);
-  height: 1000px;
-  font-family: var(--main-font-family);
 }
-#project-header {
+
+#title {
   padding-top: 20px;
   font-family: var(--main-font-family);
 }
@@ -103,4 +153,14 @@ li {
 }
 #project-intro {
   padding: 10px 0px;
+  margin-bottom: 0px;
+}
+#projects {
+  background-color: #f3ebe3;
+  color: black;
+  text-align: var(--text-center);
+  height: 1000px;
+}
+#recent {
+  font-family: var(--main-font-family);
 }

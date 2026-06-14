@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -75,67 +80,114 @@
         </h4>
       </div>
     </div>
-    <div id="table-content" class="container">
-      <div class="row">
-        <ul id="content-list" class="pt-4 col">
-          Table Of Content
-          <hr id="line-3" />
-          <li>
-            <a href="#intro" class="text-decoration-none text-white">Intro</a>
-          </li>
-          <li>
-            <a href="#basic" class="text-decoration-none text-white"
-              >SheCodes Basic</a
-            >
-          </li>
-          <li>
-            <a href="#plus" class="text-decoration-none text-white"
-              >Shecodes Plus</a
-            >
-          </li>
-          <li>
-            <a href="#react" class="text-decoration-none text-white"
-              >SheCodes React</a
-            >
-          </li>
-          <li>
-            <a href="#redesign" class="text-decoration-none text-white"
-              >Redesigning a Shopify Store</a
-            >
-          </li>
-        </ul>
-        <img
-          src="./images/table-content-pic.jpg"
-          height="300"
-          id="flower-pic"
-          class="col m-3"
-        />
+    <div id="table-content">
+      <div id="content-box" class="card">
+        <h1 id="content-title" class="card-title text-white mt-4">
+          Table Of Contents
+        </h1>
+        <hr id="line-3" class="mx-5" />
+        <h4 id="sub-content">Explore my journey, projects and skills</h4>
+        <div id="content-list" class="pt-4 list-group">
+          <a
+            href="#intro"
+            class="content-section list-group-item text-decoration-none text-white mb-1"
+          >
+            <div class="row">
+              <div class="col-2">
+                <span class="material-symbols-outlined"> person </span>
+              </div>
+              <div class="col">
+                <h5>Intro</h5>
+                <p class="content-info">A quick intro about who I am</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#recent"
+            class="content-section list-group-item text-decoration-none text-white mb-1"
+          >
+            <div class="row">
+              <div class="col-2">
+                <span class="material-symbols-outlined"> star </span>
+              </div>
+              <div class="col">
+                <h5>Most recent project</h5>
+                <p class="content-info">
+                  Check out my latest project and what I've worked on
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#react"
+            class="content-section list-group-item text-decoration-none text-white mb-1"
+          >
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="/images/atom.png"
+                  alt="React.js symbol"
+                  width="40px"
+                />
+              </div>
+              <div class="col">
+                <h5>SheCodes React</h5>
+                <p class="content-info">
+                  Projects I built while learning React
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#plus"
+            class="content-section list-group-item text-decoration-none text-white mb-1"
+          >
+            <div class="row">
+              <div class="col-2">
+                <span class="material-symbols-outlined"> add_circle </span>
+              </div>
+              <div class="col">
+                <h5>SheCodes Plus</h5>
+                <p class="content-info">
+                  Projects I've built during the SheCodes Plus workshop
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#basic"
+            class="content-section list-group-item text-decoration-none text-white"
+          >
+            <div class="row">
+              <div class="col-2">
+                <span class="material-symbols-outlined"> code_xml </span>
+              </div>
+              <div class="col">
+                <h5>SheCodes Basic</h5>
+                <p class="content-info">
+                  Projects I've built during the SheCodes Basic workshop
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
     <div id="projects">
-      <h1 id="project-header">My Projects</h1>
-      <hr id="line-4" />
-      <p id="project-intro">
-        Featured projects I've worked on during my SheCodes course and real life
-        projects
-      </p>
+      <div id="project-header" class="p-3">
+        <section id="intro-section">
+          <h1 id="title">My Projects</h1>
+          <hr id="line-4" />
+          <p id="project-intro">
+            Featuring real live projects and projects I've worked on during my
+            Shecodes course
+          </p>
+        </section>
+      </div>
       <div>
-        <div class="row">
-          <div class="col-6"></div>
-          <div class="col-4">
-            <h2>SheCodes Basic</h2>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <section id="recent-section">
+          <h2 id="recent" class="mt-4">Most recent project</h2>
+        </section>
       </div>
     </div>
   </body>
