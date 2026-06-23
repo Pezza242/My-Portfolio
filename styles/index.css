@@ -64,7 +64,7 @@ body {
 }
 #table-content {
   color: var(--text-colour);
-  background-image: url(../images/beige-background.jpg);
+  background-image: url(../images/flower-table-of-content-background.jpg);
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
